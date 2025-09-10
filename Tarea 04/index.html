@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            margin: 0px;
+        }
+
+        .contenedor{
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            background-color: whitesmoke;
+
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .foto{
+            width: 100%;
+            height: 100%;
+            filter: grayscale(100%);
+        }
+
+        .foto:hover{
+            filter: none;
+        }
+
+        #primero{
+            grid-column: 1/3;
+        }
+
+       
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="foto" id="primero">
+            <img src="Foto 1.jpg" alt="escala de grises">
+        </div>
+        <div class="foto"> 
+            <img src="Foto 2.jpg" alt="">
+        </div>
+        <div class="foto"> 
+            <img src="Foto 3.jpg" alt="">
+        </div>
+        <div class="foto"> 
+            <img src="Foto 4.jpg" alt="">
+        </div>
+        <div class="foto"> 
+            <img src="Foto 5 (2).jpg" alt="">
+        </div>
+        <div class="foto"> 
+            <!-- <img src="Foto 6.jpg" alt=""> -->
+        </div>
+        <div class="foto"> 
+            <!-- <img src="Foto 7.jpg" alt=""> -->
+        </div>
+        <div class="foto"> 
+            <!-- <img src="Foto 8.jpg" alt=""> -->
+        </div>
+        <div class="foto"> 
+            <!-- <img src="Foto 9.jpg" alt=""> -->
+        </div>
+        <div class="foto"> 
+            <!-- <img src="Foto 10.jpg" alt=""> -->
+        </div>
+    </div>
+</body>
+</html>
